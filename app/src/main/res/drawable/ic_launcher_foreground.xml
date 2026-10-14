@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Center 66dp safe zone: X: 21 to 87, Y: 21 to 87 -->
+    <!-- Ticket Card / Badge Backing -->
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M30,34 C30,30.7 32.7,28 36,28 L72,28 C75.3,28 78,30.7 78,34 L78,48 C75,48 73,50 73,53 C73,56 75,58 78,58 L78,74 C78,77.3 75.3,80 72,80 L36,80 C32.7,80 30,77.3 30,74 L30,58 C33,58 35,56 35,53 C35,50 33,48 30,48 Z" />
+
+    <!-- Train Silhouette in White on the badge -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M42,35 C42,32 45,31 54,31 C63,31 66,32 66,35 L66,57 C66,61 63,63 54,63 C45,63 42,61 42,57 Z" />
+
+    <!-- Train Windshield -->
+    <path
+        android:fillColor="#0A1E3F"
+        android:pathData="M45,36 L63,36 L63,44 L45,44 Z" />
+
+    <!-- Train Headlights -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M46,52 A2.5,2.5 0 1,0 51,52 A2.5,2.5 0 1,0 46,52 Z" />
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M57,52 A2.5,2.5 0 1,0 62,52 A2.5,2.5 0 1,0 57,52 Z" />
+
+    <!-- Train Grill / Buffer -->
+    <path
+        android:fillColor="#0A1E3F"
+        android:pathData="M48,58 L60,58 L58,61 L50,61 Z" />
+
+    <!-- Golden Rails & Speed lines -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M38,71 L70,71 M44,66 L64,66" />
+
+    <!-- Small Checkmark / Express Badge in top right corner of ticket -->
+    <path
+        android:fillColor="#00E676"
+        android:pathData="M65,26 A6,6 0 1,0 77,26 A6,6 0 1,0 65,26 Z" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M68,26 L70.5,28.5 L74.5,23.5" />
+</vector>

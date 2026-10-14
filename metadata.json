@@ -1,0 +1,6 @@
+{
+  "name": "TatkalSeva",
+  "description": "Ticket booking concierge service for passengers with Aadhaar, PAN, travel details submission, upfront payment, and fast ticket fulfillment.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
